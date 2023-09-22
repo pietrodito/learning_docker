@@ -1,0 +1,8 @@
+version: '3.8'
+name: so_question
+
+services:
+
+  r:
+    image: r-base:4.3.1
+    command: R -e "browser(); print('Try to reach me!')"

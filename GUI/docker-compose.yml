@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    image: x-eyes:latest 
+    build: .
+    network_mode: "host"
+    environment:
+      - DISPLAY=${DISPLAY}
